@@ -1,0 +1,37 @@
+.menu {
+    width: 100%;
+    padding: 1.125rem;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    border-bottom: 0.0625rem solid gray
+}
+
+.menu__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu__links {
+    float: right;
+    width: 52.5rem;
+    text-align: right;
+    list-style-type: none;
+}
+
+.menu__links {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu__input {
+    border-radius: 1.875rem;
+}
+
+@media only screen and (max-width:550px) {
+    .menu__links-2 {
+        display: none;
+    }
+}
